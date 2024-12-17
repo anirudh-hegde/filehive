@@ -118,7 +118,7 @@ const FolderTree = () => {
           style={{ paddingLeft }}
         >
           <span>{getIconForFile(item.name)}</span>
-          <span className='ml-2' style={{fontSize: '2 0px'}}>{item.name}</span>
+          <span className='ml-2' style={{fontSize: '20px'}}>{item.name}</span>
           <button
             onClick={() => renameItem(item.id, prompt('Enter new name'))}
             className='ml-2 text-blue-500'
@@ -143,7 +143,7 @@ const FolderTree = () => {
           onClick={() => toggleFolder(item.name)}
         >
           <span>{openFolders[item.name] ? '▼' : '▶'}</span>
-          <span className='ml-2 font-medium text-lg' style={{fontSize: '30px'}}>{item.name}</span>
+          <span className='ml-2 font-medium text-lg'>{item.name}</span>
           <button
             onClick={() => addFolder(item.id)}
             className='ml-2 text-green-500'

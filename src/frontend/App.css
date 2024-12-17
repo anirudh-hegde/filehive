@@ -10,11 +10,11 @@ html, body {
   background-color: black;
 }
 
-@media only screen and (min-width:230px) {
+@media only screen and (max-width:230px) {
   .cypiu {
     font-size: small;
     height: 260px;
-    width: 365px;
+    width: 465px;
 
 
     h1{
@@ -28,7 +28,7 @@ html, body {
   .cypiu {
     font-size: small;
     height: 360px;
-    width: 460px;
+    width: 760px;
 
     h1{
       font-size: 30px;
@@ -41,10 +41,23 @@ html, body {
   .cypiu {
     font-size: 40px;
     height: 560px;
-    width: 865px;
+    width: 965px;
 
     h1{
       font-size: 90px;
+    }
+  }
+  
+}
+
+@media only screen and (min-width:1501px) and (max-width:1900px) {
+  .cypiu {
+    font-size: 40px;
+    height: 760px;
+    width: 1065px;
+
+    h1{
+      font-size: 120px;
     }
   }
   
