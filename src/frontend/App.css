@@ -10,7 +10,7 @@ html, body {
   background-color: black;
 }
 
-@media only screen and (max-width:230px) {
+@media only screen and (max-width:530px) {
   .cypiu {
     font-size: small;
     height: 260px;
