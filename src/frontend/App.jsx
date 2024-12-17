@@ -1,4 +1,3 @@
-// import { useState } from 'react'
 import './App.css';
 import FolderTree from './components/FolderTree.jsx'
 function App () {
