@@ -34,3 +34,15 @@ and backend locally, and integrating them seamlessly.
    npm install
    npm run dev
    ```
+
+## About
+### Technologies Used
+* Frontend: React (Vite setup for modern development)
+* Backend: Flask with Flask-CORS for handling API requests
+* Tools: Node.js, Python 3.x
+
+### Key Features
+* Full-stack development with React and Flask
+* Seamless communication between frontend and backend
+* Modern, lightweight React setup using Vite
+* API handling and folder creation functionality in Flask
