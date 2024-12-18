@@ -46,3 +46,10 @@ and backend locally, and integrating them seamlessly.
 * Seamless communication between frontend and backend
 * Modern, lightweight React setup using Vite
 * API handling and folder creation functionality in Flask
+
+
+## Conclusion
+You now have a functioning React frontend and Flask backend running simultaneously on your local machine.
+React handles the user interface, while Flask manages API requests and backend logic. To deploy this project, 
+you can host the frontend (React) on platforms like Vercel or Netlify, and the backend (Flask) on Heroku or any 
+cloud service provider.
