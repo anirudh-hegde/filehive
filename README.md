@@ -21,7 +21,7 @@ and backend locally, and integrating them seamlessly.
 
 2. Backend setup:
    ```bash
-   cd src/backend
+   cd backend
    python3 -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
@@ -30,7 +30,7 @@ and backend locally, and integrating them seamlessly.
    
 3. Frontend setup:
    ```bash
-   cd src/frontend
+   cd frontend/src
    npm install
    npm run dev
    ```
@@ -53,3 +53,5 @@ You now have a functioning React frontend and Flask backend running simultaneous
 React handles the user interface, while Flask manages API requests and backend logic. To deploy this project, 
 you can host the frontend (React) on platforms like Vercel or Netlify, and the backend (Flask) on Heroku or any 
 cloud service provider.
+
+Hosted website: https://filehive06.netlify.app/
